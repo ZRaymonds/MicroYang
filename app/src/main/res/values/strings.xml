@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">MicroYang</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">微阳</string>
     <string name="title_home">主页</string>
     <string name="title_notice">通知</string>
     <string name="title_my">我的</string>
