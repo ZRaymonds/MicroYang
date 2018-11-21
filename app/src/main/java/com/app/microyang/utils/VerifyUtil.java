@@ -29,7 +29,7 @@ public class VerifyUtil {
             }
         } catch (Exception e) {
             // TODO: handle exception
-            Log.v("error", e.toString());
+            LogUtil.v("error",e.toString());
         }
         return false;
     }
