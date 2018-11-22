@@ -31,4 +31,7 @@ dependencies {
     //Butterknife
     implementation 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //引导页
+//    implementation 'com.allure0:LMBanners:1.0.8'
+    implementation project(':lm_banner_library')
 }

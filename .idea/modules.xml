@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MicroYang.iml" filepath="$PROJECT_DIR$/MicroYang.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lm_banner_library/lm_banner_library.iml" filepath="$PROJECT_DIR$/lm_banner_library/lm_banner_library.iml" />
     </modules>
   </component>
 </project>
