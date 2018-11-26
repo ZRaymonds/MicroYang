@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/base</item>
     </style>
 
-    <style name="AnimActivityTheme" parent="Theme.AppCompat.NoActionBar">
+    <style name="AnimActivityTheme" parent="AppTheme">
         <!-- 设置没有标题 -->
         <item name="android:windowNoTitle">true</item>
         <!-- 设置activity切换动画 -->
@@ -16,7 +16,7 @@
     </style>
 
     <!-- animation 样式 -->
-    <style name="activityAnimation" parent="@android:style/Animation">
+    <style name="activityAnimation" parent="Theme.AppCompat.NoActionBar">
         <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
         <item name="android:activityOpenExitAnimation">@anim/left_out</item>
         <item name="android:activityCloseEnterAnimation">@anim/right_out</item>

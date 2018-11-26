@@ -2,7 +2,6 @@ package com.app.microyang.view.activity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.app.microyang.R;
@@ -26,7 +25,6 @@ public class LoginActivity extends BaseActivity {
         switch (v.getId()) {
             case R.id.tv_newAccount:
                 startActivity(RegisterActivity.class);
-                overridePendingTransition(R.anim.right_in,R.anim.left_out);
                 break;
         }
     }

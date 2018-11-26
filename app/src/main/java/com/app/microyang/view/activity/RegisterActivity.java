@@ -25,7 +25,6 @@ public class RegisterActivity extends BaseActivity {
         switch (v.getId()) {
             case R.id.tv_haveAccount:
                 startActivity(LoginActivity.class);
-                overridePendingTransition(R.anim.right_out,R.anim.left_in);
                 break;
         }
     }
