@@ -32,7 +32,7 @@ public class SplashActivity extends BaseActivity {
         handler.postDelayed(runnable = new Runnable() {
             @Override
             public void run() {
-                startActivity(MainActivity.class);
+                startActivity(LoginActivity.class);
                 overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
             }
         }, 3000);
@@ -40,7 +40,7 @@ public class SplashActivity extends BaseActivity {
 
     @OnClick(R.id.start_skip_count_down)
     public void onClick(View v) {
-        startActivity(MainActivity.class);
+        startActivity(LoginActivity.class);
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         if (runnable != null) {
             handler.removeCallbacks(runnable);

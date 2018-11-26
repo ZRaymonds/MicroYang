@@ -5,7 +5,31 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/base</item>
+    </style>
+
+    <style name="AnimActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- 设置没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/right_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/left_in</item>
+    </style>
+
+
+    <!-- 自定义 loading dialog -->
+    <style name="loading_dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
 </resources>

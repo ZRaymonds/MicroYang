@@ -3,4 +3,14 @@
     <string name="title_home">主页</string>
     <string name="title_notice">通知</string>
     <string name="title_my">我的</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forgetPassword">忘记密码？</string>
+    <string name="loginTitle">登录</string>
+    <string name="registerTitle">注册</string>
+    <string name="newsAccount">新用户？点击这里注册</string>
+    <string name="haveAccount">已有账号了？点击这里注册</string>
+    <string name="input_username">请输入手机号/手机号</string>
+    <string name="input_password">请输入密码</string>
 </resources>
