@@ -10,7 +10,13 @@
     <string name="loginTitle">登录</string>
     <string name="registerTitle">注册</string>
     <string name="newsAccount">新用户？点击这里注册</string>
-    <string name="haveAccount">已有账号了？点击这里注册</string>
+    <string name="haveAccount">已有账号了？点击这里登录</string>
     <string name="input_username">请输入手机号/账号</string>
     <string name="input_password">请输入密码</string>
+
+    <string name="jiangzuo">讲座</string>
+    <string name="yanchu">演出</string>
+    <string name="bisai">比赛</string>
+    <string name="shetuan">社团</string>
+    <string name="xueshenghui">学生会</string>
 </resources>
