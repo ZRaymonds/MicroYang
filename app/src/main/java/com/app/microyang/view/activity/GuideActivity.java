@@ -59,7 +59,7 @@ public class GuideActivity extends BaseActivity {
             @Override
             public void startOpen() {
                 //回调跳转的逻辑
-                startActivity(MainActivity.class);
+                startActivity(LoginActivity.class);
             }
         });
     }

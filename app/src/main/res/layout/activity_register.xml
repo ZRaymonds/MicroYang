@@ -10,9 +10,8 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="300dp"
-        android:layout_height="450dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
         app:cardCornerRadius="6dp"
         app:cardElevation="3dp"
         app:cardPreventCornerOverlap="true"
@@ -46,18 +45,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:orientation="vertical"
                 android:visibility="visible">
 
                 <EditText
-                    android:id="@+id/et_login_username"
+                    android:id="@+id/et_register_username"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edit_background"
                     android:hint="@string/input_username"
-                    android:inputType="phone"
+                    android:inputType="text"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
                     android:paddingRight="10dp"
@@ -66,6 +65,162 @@
                     android:textCursorDrawable="@drawable/cursor"
                     android:textSize="16sp" />
 
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_studentID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_register_studentID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_background"
+                    android:hint="@string/input_student_id"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/less_green"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:id="@+id/tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="性别：" />
+
+                        <RadioGroup
+                            android:id="@+id/rg"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/male"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="@string/male" />
+
+                            <RadioButton
+                                android:id="@+id/female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="@string/female" />
+                        </RadioGroup>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_school"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_register_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_background"
+                    android:hint="@string/input_school"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/less_green"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_department"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_register_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_background"
+                    android:hint="@string/input_student_department"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/less_green"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="16sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_class"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_register_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_background"
+                    android:hint="@string/input_student_class"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/less_green"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="16sp" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -73,12 +228,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 app:passwordToggleEnabled="true">
 
                 <EditText
-                    android:id="@+id/et_login_password"
+                    android:id="@+id/et_register_password"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edit_background"
@@ -99,11 +254,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_login"
-                android:enabled="false"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/register"
@@ -115,7 +269,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/haveAccount"
                 android:textColor="@color/trans"
                 android:textSize="15sp" />

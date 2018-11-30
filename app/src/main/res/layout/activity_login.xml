@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
@@ -53,12 +54,13 @@
                 android:visibility="visible">
 
                 <EditText
-                    android:id="@+id/et_login_username"
+                    android:id="@+id/et_login_studentID"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:autofillHints="username"
                     android:background="@drawable/edit_background"
-                    android:hint="@string/input_username"
-                    android:inputType="phone"
+                    android:hint="@string/input_student_id"
+                    android:inputType="number"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
                     android:paddingRight="10dp"
@@ -71,6 +73,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -82,6 +85,7 @@
                     android:id="@+id/et_login_password"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:autofillHints="password"
                     android:background="@drawable/edit_background"
                     android:hint="@string/input_password"
                     android:inputType="textPassword"
@@ -91,7 +95,8 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/less_green"
                     android:textCursorDrawable="@drawable/cursor"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    tools:targetApi="o" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -116,7 +121,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_login"
-                android:enabled="false"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/login"

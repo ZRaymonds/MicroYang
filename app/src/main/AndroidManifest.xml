@@ -22,8 +22,12 @@
             android:name=".view.activity.GuideActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".view.activity.SplashActivity" />
-        <activity android:name=".view.activity.LoginActivity" />
-        <activity android:name=".view.activity.RegisterActivity" />
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".view.activity.RegisterActivity"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".view.activity.MainActivity" />
     </application>
 

@@ -11,12 +11,25 @@
     <string name="registerTitle">注册</string>
     <string name="newsAccount">新用户？点击这里注册</string>
     <string name="haveAccount">已有账号了？点击这里登录</string>
-    <string name="input_username">请输入手机号/账号</string>
+    <string name="input_username">请输入用户名</string>
     <string name="input_password">请输入密码</string>
+    <string name="input_student_id">请输入学号</string>
+    <string name="input_school">请输入学校</string>
+    <string name="input_student_class">请输入班级</string>
+    <string name="input_student_department">请输入系别</string>
 
     <string name="jiangzuo">讲座</string>
     <string name="yanchu">演出</string>
     <string name="bisai">比赛</string>
     <string name="shetuan">社团</string>
     <string name="xueshenghui">学生会</string>
+
+    <string name="verify_title">研发中心招新宣讲会</string>
+    <string name="verify_time">2017-5-8 19:00</string>
+    <string name="verify_place">实训大楼学术报告厅</string>
+    <string name="publish_default_text">发表于</string>
+    <string name="verify_publish_time">2017-5-7 12:00</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
 </resources>
