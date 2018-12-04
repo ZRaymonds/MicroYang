@@ -18,7 +18,7 @@
         app:cardUseCompatPadding="true"
         app:contentPaddingLeft="10dp"
         app:contentPaddingRight="10dp"
-        app:contentPaddingTop="50dp">
+        app:contentPaddingTop="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/edit_background"
                     android:hint="@string/input_student_id"
-                    android:inputType="number"
+                    android:inputType="text"
                     android:paddingLeft="10dp"
                     android:paddingTop="5dp"
                     android:paddingRight="10dp"
@@ -95,53 +95,32 @@
 
             </android.support.design.widget.TextInputLayout>
 
-            <LinearLayout
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ll_sex"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:orientation="horizontal">
+                android:orientation="vertical"
+                android:visibility="visible">
 
-                <TableLayout
-                    android:id="@+id/tab"
+                <EditText
+                    android:id="@+id/et_register_sex"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center">
+                    android:background="@drawable/edit_background"
+                    android:hint="@string/input_sex"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/less_green"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="16sp" />
 
-                    <TableRow>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="性别：" />
-
-                        <RadioGroup
-                            android:id="@+id/rg"
-                            android:layout_gravity="center_horizontal"
-                            android:orientation="horizontal">
-
-                            <RadioButton
-                                android:id="@+id/male"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:checked="true"
-                                android:text="@string/male" />
-
-                            <RadioButton
-                                android:id="@+id/female"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:checked="true"
-                                android:text="@string/female" />
-                        </RadioGroup>
-
-                    </TableRow>
-
-                </TableLayout>
-
-            </LinearLayout>
+            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/ll_school"
@@ -250,11 +229,11 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/btn_login"
@@ -269,7 +248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:text="@string/haveAccount"
                 android:textColor="@color/trans"
                 android:textSize="15sp" />

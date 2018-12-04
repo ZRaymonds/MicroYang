@@ -4,6 +4,7 @@ import com.app.microyang.bean.UserBean;
 import com.app.microyang.callBack.OnNetListener;
 import com.app.microyang.model.ILoginModel;
 import com.app.microyang.model.impl.LoginModelImpl;
+import com.app.microyang.utils.LogUtil;
 import com.app.microyang.view.ILoginView;
 
 public class LoginPresenter {
@@ -17,14 +18,15 @@ public class LoginPresenter {
         iLoginModel = new LoginModelImpl();
     }
 
-    public void login(){
+    public void login() {
         iLoginView.showLoading();
-        iLoginModel.getLogin(iLoginView.getLgStudentID(), iLoginView.getLgPassword(), new OnNetListener<UserBean>() {
+        iLoginModel.getLogin(iLoginView.getLgUsername(), iLoginView.getLgPassword(), new OnNetListener<UserBean>() {
             @Override
             public void onSuccess(UserBean userBean) {
                 int code = userBean.getCode();
-                String status = userBean.getStatus();
-                iLoginView.showLoginSuccess(code,status);
+                String msg = userBean.getMsg();
+                LogUtil.d("TAG", userBean.getAuthc_token());
+                iLoginView.showLoginSuccess(code, msg);
                 iLoginView.hideLoading();
             }
 

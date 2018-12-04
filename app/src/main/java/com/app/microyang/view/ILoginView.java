@@ -2,12 +2,12 @@ package com.app.microyang.view;
 
 public interface ILoginView {
 
-    void showLoginSuccess(int code, String status);
+    void showLoginSuccess(int code, String msg);
 
     void showLoginError(Exception e);
 
     //得到用户填写的信息
-    String getLgStudentID();
+    String getLgUsername();
 
     String getLgPassword();
 

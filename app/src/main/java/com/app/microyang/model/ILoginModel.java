@@ -5,6 +5,6 @@ import com.app.microyang.callBack.OnNetListener;
 
 public interface ILoginModel {
 
-    void getLogin(String student_id, String password, final OnNetListener<UserBean> onNetListener);
+    void getLogin(String username, String password, final OnNetListener<UserBean> onNetListener);
 
 }

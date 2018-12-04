@@ -2,7 +2,6 @@ package com.app.microyang.view.activity;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,10 +11,10 @@ import com.app.microyang.R;
 import com.app.microyang.base.BaseActivity;
 import com.app.microyang.presenter.LoginPresenter;
 import com.app.microyang.utils.LogUtil;
+import com.app.microyang.utils.RSAUtil;
 import com.app.microyang.utils.ToastUtil;
 import com.app.microyang.utils.VerifyUtil;
 import com.app.microyang.view.ILoginView;
-import com.app.microyang.view.fragment.HomeFragment;
 import com.app.microyang.widget.LoadingDialog;
 
 import butterknife.BindView;
@@ -57,7 +56,11 @@ public class LoginActivity extends BaseActivity implements ILoginView {
                 break;
             case R.id.btn_login:
                 if (VerifyUtil.isConnect(mContext)) {
-                    if (validateAccount(getLgStudentID()) && validatePassword(getLgPassword())) {
+                    if (getLgUsername().isEmpty()) {
+                        ToastUtil.show(this, "用户名不能为空");
+                    } else if (getLgPassword().isEmpty()) {
+                        ToastUtil.show(this, "密码不能为空");
+                    } else {
                         loginPresenter.login();
                     }
                 } else {
@@ -73,12 +76,13 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     }
 
     @Override
-    public void showLoginSuccess(int code, String status) {
+    public void showLoginSuccess(int code, String msg) {
         if (code == 200) {
-            ToastUtil.show(this, status);
+            ToastUtil.show(this, msg);
             startActivity(MainActivity.class);
         } else {
-            ToastUtil.show(this, status);
+            ToastUtil.show(this, msg);
+            LogUtil.d("TAG", msg);
         }
     }
 
@@ -89,13 +93,13 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     }
 
     @Override
-    public String getLgStudentID() {
+    public String getLgUsername() {
         return et_login_studentID.getText().toString();
     }
 
     @Override
     public String getLgPassword() {
-        return et_login_password.getText().toString();
+        return RSAUtil.base64Encrypted(et_login_password.getText().toString());
     }
 
     @Override
@@ -106,38 +110,6 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     @Override
     public void hideLoading() {
         loadingDialog.dismiss();
-    }
-
-    /**
-     * 验证用户名
-     *
-     * @param mobile
-     * @return
-     */
-    private boolean validateAccount(String mobile) {
-        if (mobile.isEmpty()) {
-            ToastUtil.show(this, "学号不能为空");
-            return false;
-        } else {
-            btn_login.setEnabled(true);
-        }
-        return true;
-    }
-
-    /**
-     * 验证密码
-     *
-     * @param password
-     * @return
-     */
-    private boolean validatePassword(String password) {
-        if (password.isEmpty()) {
-            ToastUtil.show(this, "密码不能为空");
-            return false;
-        } else {
-            btn_login.setEnabled(true);
-        }
-        return true;
     }
 
     /**

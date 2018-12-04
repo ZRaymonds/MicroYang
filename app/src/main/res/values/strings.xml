@@ -17,6 +17,7 @@
     <string name="input_school">请输入学校</string>
     <string name="input_student_class">请输入班级</string>
     <string name="input_student_department">请输入系别</string>
+    <string name="input_sex">请输入性别</string>
 
     <string name="jiangzuo">讲座</string>
     <string name="yanchu">演出</string>
