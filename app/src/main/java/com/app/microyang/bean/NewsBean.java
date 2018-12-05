@@ -6,27 +6,27 @@ public class NewsBean {
 
 
     /**
-     * pageToken : 2
-     * retcode : 000000
-     * appCode : qihoo
      * dataType : news
+     * data : [{"publishDateStr":"2018-12-05T01:55:00","posterId":"hb.jjj.qq.com","content":"河北省大厂回族自治县组织开展&quot;宪法知识进校园&quot;主题宣讲活动,普法志愿者组成10余个志愿小分队分赴各中小学校园,通过召开主题班会、组织学生社团活动、社会实践等多种形式,对学生开展法治教育,弘扬宪法精神。通讯员刘亮、黄蕾、白万军摄影报道 12月3日,在河北省大...","commentCount":null,"imageUrls":["http://p0.qhimg.com/t01b7436107535d3772.jpg?size=640x426","http://p9.qhimg.com/t013c8933cc69c3ce88.jpg?size=640x410","http://p3.qhimg.com/t01319c4d96a5c131ab.jpg?size=640x426"],"shareCount":null,"title":"迎接国家宪法日:大厂普法宣传进校园","tags":null,"posterScreenName":"腾讯大燕网","publishDate":1543974900,"likeCount":null,"url":"http://hb.jjj.qq.com/a/20181205/005427.htm","id":"f80c37f1d938ddc27027250396c11c21"},{"publishDateStr":"2018-12-05T01:15:00","posterId":"cq.qq.com","content":"一位头发花白的长者低着头创作&quot;葫芦烙画&quot;,吸引了多名学生围观\u2026在国家博物馆&quot;伟大的变革--庆祝改革开放40周年大型展览&quot;第四展区第三单元,一张&quot;非遗进校园&quot;的照片引人注目。据了解,图中的长者正是重庆市级非遗项目&quot;葫芦烙画&quot;的代表...","commentCount":null,"imageUrls":["http://p8.qhimg.com/t01c5792698e03db44b.jpg?size=640x426"],"shareCount":null,"title":"&quot;非遗进校园&quot;活动 让青少年学生爱上古老非遗","tags":null,"posterScreenName":"腾讯大渝网","publishDate":1543972500,"likeCount":null,"url":"http://cq.qq.com/a/20181205/004224.htm","id":"3b507c439ee07dd5232c91c3cecef582"},{"publishDateStr":"2018-12-05T01:08:00","posterId":"hb.jjj.qq.com","content":"当日是国家宪法日。为弘扬宪法精神,建设平安校园,阜城县人民检察院联合团县委、县司法局法律援助中心组成宣讲团,走进县第四中学,开展&quot;宪法在我心中&quot;主题宣讲活动。新华社记者李晓果摄 (新华社)","commentCount":null,"imageUrls":["http://p8.qhimg.com/t019c9843f5a5d0909b.jpg?size=640x407","http://p1.qhimg.com/t01b6d415dc57aff6bf.jpg?size=640x413"],"shareCount":null,"title":"阜城:宪法宣讲进校园","tags":null,"posterScreenName":"腾讯大燕网","publishDate":1543972080,"likeCount":null,"url":"http://hb.jjj.qq.com/a/20181205/004006.htm","id":"7b9f0b35a701c4b9eb83158ba4950995"},{"publishDateStr":"2018-12-04T09:32:00","posterId":"news.qq.com","content":"从北大校园到亚丁湾、索马里海域,并非一路坦途。 宋玺的父亲曾从军19载,从一名普通战士成长为一名军官。父亲转业前,宋玺一直在部队大院里生活。&quot;高考时,我就很想报考军校。&quot;但深知军人不易的母亲觉得当兵太苦,希望宋玺在普通大学完成学业。 &quot;上了大学,当兵的...","commentCount":null,"imageUrls":null,"shareCount":null,"title":"退伍女兵宋玺:从北大校园走向索马里海域","tags":null,"posterScreenName":"腾讯","publishDate":1543915920,"likeCount":null,"url":"https://news.qq.com/a/20181204/012287.htm","id":"0a93043fef8c6cfa34b44406751fec55"},{"publishDateStr":"2018-12-04T08:39:00","posterId":"edu.qq.com","content":"不止老师操作方便,对学生来说,便捷的缴费形式同样受到大家的欢迎。缴费大厅目前已经覆盖多个校园缴费场景,如学费、住宿费、水电费、报名费等。缴费页面清晰,学生通过手机可以直接查看缴费金额,一键点击支付,避免了来回奔波的麻烦,有效节省时间。此外,学生也能查询缴费记录...","commentCount":null,"imageUrls":["http://p7.qhimg.com/t01e1a4c0adf1224bc4.png?size=540x503"],"shareCount":null,"title":"腾讯微校缴费大厅助力学校财务管理,创新校园缴费形式","tags":null,"posterScreenName":"腾讯教育","publishDate":1543912740,"likeCount":null,"url":"http://edu.qq.com/a/20181204/011657.htm","id":"c40c620ac9d576e0162da7f275ad58bd"},{"publishDateStr":"2018-12-04T01:47:00","posterId":"xian.qq.com","content":"今年7月31日,教育部办公厅印发《关于组织申报全国青少年校园足球改革试验区的通知》,部分地区积极申报并经省级教育行政部门推荐。在组织专家认真复核的基础上,经研究,近日,全国校足办、教育部办公厅印发《关于同意设立全国青少年校园足球改革试验区的函》,公布天津市、内...","commentCount":null,"imageUrls":["http://p1.qhimg.com/t015781e3f36e952539.jpg?size=500x352"],"shareCount":null,"title":"教育部:建设全国27个校园足球改革试验区","tags":null,"posterScreenName":"腾讯大秦网","publishDate":1543888020,"likeCount":null,"url":"http://xian.qq.com/a/20181204/004857.htm","id":"cd25fb137209918ad2dd16f3cd8acf5a"},{"publishDateStr":"2018-12-04T00:01:00","posterId":"hb.jjj.qq.com","content":" 为进一步普及大货车盲区和&quot;内轮差&quot;所带来的危害后果,让辖区广大中小学生深刻了解这一情况,近日,深州交警大队在深州市实验小学开展了一次&quot;认知盲区&quot;交通安全知识教育宣传活动。 活动中,民警向学生们直观展示出了大货车的所有盲区(如图),让学生们知道站...","commentCount":null,"imageUrls":["http://p7.qhimg.com/t01859ec0b3f158f9f4.jpg?size=500x374"],"shareCount":null,"title":"交通安全知识进校园","tags":null,"posterScreenName":"腾讯大燕网","publishDate":1543881660,"likeCount":null,"url":"http://hb.jjj.qq.com/a/20181204/002791.htm","id":"3d98274f4bec58b65676e4c1870966fa"},{"publishDateStr":"2018-12-03T23:50:00","posterId":"henan.qq.com","content":"近年来,各地为治理校园欺凌问题进行大量有益的探索,推出了一些积极的措施。广东省教育厅、卫健委、团省委等13部门近日联合出台《加强中小学生欺凌综合治理方案的实施办法(试行)》(简称《办法》),对校园欺凌的分类、预防、治理等问题作出明确规定。《办法》明确,给他人起侮...","commentCount":null,"imageUrls":null,"shareCount":null,"title":"立法明确规定起侮辱性绰号也是校园欺凌","tags":null,"posterScreenName":"腾讯大豫网","publishDate":1543881000,"likeCount":null,"url":"http://henan.qq.com/a/20181204/002583.htm","id":"80be2d1d6faa10a474c2d6e8649e9e5e"},{"publishDateStr":"2018-12-03T02:15:00","posterId":"hn.qq.com","content":"12月2日上午9时,湖南省第三届校园武术展示活动开幕式在雄壮的国歌声中开始。本届参赛选手达1800人,有来自全省14个市州的近90所大、中、小学校派出代表队。湖南师大附中高新实验中学党总支书记陈文锋致欢迎词,湖南省体育局局长李舜致开幕词,他强调,武术是中华民族优秀文...","commentCount":null,"imageUrls":["http://p4.qhimg.com/t01ea95d995ef4b044e.jpg?size=640x480"],"shareCount":null,"title":"湖南省第三届校园武术展示活动长沙举行 1800人参赛","tags":null,"posterScreenName":"腾讯大湘网","publishDate":1543803300,"likeCount":null,"url":"http://hn.qq.com/a/20181203/006548.htm","id":"6e5f85380cf38f8bafcf506ba98b3215"},{"publishDateStr":"2018-11-30T10:23:00","posterId":"cd.qq.com","content":"自然灾害威胁着人类的生命,四川省5.12汶川、4.20雅安、8.8九寨沟地震、6.24阿坝州茂县泥石流等自然灾害造成人民群众生命财产重大损失,众多校园年幼孩子生命凋谢更是令人扼腕痛惜。 如何让阿坝州自然灾害频发地区的群众,特别是孩子掌握更多的、科学的避灾求生技能,是每次都...","commentCount":null,"imageUrls":["http://p9.qhimg.com/t01b2b2760f9fda24b1.jpg?size=640x320","http://p9.qhimg.com/t01f2243249ec140f51.jpg?size=640x480"],"shareCount":null,"title":"安全知识进校园 防灾减灾关爱公益行走进理县","tags":null,"posterScreenName":"腾讯大成网","publishDate":1543573380,"likeCount":null,"url":"http://cd.qq.com/a/20181130/016369.htm","id":"25d9115ebe99127f1cd8946a633a781a"}]
+     * retcode : 000000
+     * pageToken : 2
+     * appCode : qihoo
      * hasNext : true
-     * data : [{"content":"2018年11月19日下午14:00,太平财产保险有限公司2019届校园宣讲会西安交通大学站顺利开启,来自西北区域各大高校约350余名学生参加宣讲会议。总公司人力资源部总经理张进伟、陕西分公司助理总经理槐毅及湖北分公司、辽宁分公司、河北分公司、吉林分公司、山西分公司相关...","posterScreenName":"腾讯大秦网","imageUrls":["http://p5.qhimg.com/t010050fffee4035de7.jpg?size=641x427","http://p1.qhimg.com/t01f937cce279bf8b9d.jpg?size=641x427","http://p3.qhimg.com/t0151e8789f25270b99.jpg?size=641x427","http://p2.qhimg.com/t01d3542b70960a9387.jpg?size=641x427","http://p8.qhimg.com/t01079568f4c9220972.jpg?size=641x427","http://p0.qhimg.com/t018008f166fbc28467.jpg?size=641x427"],"tags":null,"url":"http://xian.qq.com/a/20181130/015332.htm","commentCount":null,"shareCount":null,"id":"c5b9f77274dfba59c65b773bae64cdda","title":"太平财产保险有限公司2019届校园宣讲会西安交大站圆满落幕","posterId":"xian.qq.com","publishDate":1543568700,"publishDateStr":"2018-11-30T09:05:00","likeCount":null},{"content":"为全面提高学校师生消防安全素质和自防自救能力,打牢学生群体消防安全基础,11月28日,中方县城北中学举办第一届中小学校园风险防范暨演练观摩活动,县消防大队消防指战员为城北中学全体师生以及前来观摩的群众送上一份&quot;消防大餐&quot;。 活动分为灭火疏散演练与消防知...","posterScreenName":"腾讯大湘网","imageUrls":["http://p1.qhimg.com/t018e69f2aca468a1a0.jpg?size=600x450","http://p5.qhimg.com/t012b0a675edcd80cbe.jpg?size=600x450"],"tags":null,"url":"http://hn.qq.com/a/20181129/011723.htm","commentCount":null,"shareCount":null,"id":"1192e46a7d2505b85c60fd134e45ef5e","title":"中方县大队消防宣传进校园 城北师生共享消防餐","posterId":"hn.qq.com","publishDate":1543477680,"publishDateStr":"2018-11-29T07:48:00","likeCount":null},{"content":"2018,NEOSTAR全音乐校园艺能大赛同时在全国30个城市,约180所院校拉开帷幕。该比赛由每年培养超过600名各类优秀艺人的中国最大综合音乐实体,合纵文化集团倾力打造。针对15-22周岁的各类院校学生,力图最大范围网罗国内优秀音乐艺术人才。而所有晋级的选手将统一飞赴北...","posterScreenName":"腾讯大燕网","imageUrls":["http://p0.qhimg.com/t010101dfafb80bd6a8.jpg?size=500x182","http://p1.qhimg.com/t01f603bc0a73dca6d8.jpg?size=500x300"],"tags":null,"url":"http://bj.jjj.qq.com/a/20181129/010618.htm","commentCount":null,"shareCount":null,"id":"5d939f647863c60a03812e0fa9c3bd66","title":"森海塞尔助力NEOSTAR全音乐校园艺能大赛","posterId":"bj.jjj.qq.com","publishDate":1543473900,"publishDateStr":"2018-11-29T06:45:00","likeCount":null},{"content":"中新社休斯敦11月28日电 面对美国近年频频发生的校园枪击事件,密歇根州奥克兰大学的师生购入数千个冰球,让学生在紧要关头自卫。 美国全国公共电台28日消息,当前,该校首席运营官斯科特·昆塞尔曼表示,学校教工工会已筹款购买2500个冰球,其中工会教工分得800个,该校学生170...","posterScreenName":"腾讯","imageUrls":["http://p0.qhimg.com/t01decbb2f0d508cce0.jpg?size=300x168"],"tags":null,"url":"http://sports.qq.com/a/20181129/002691.htm","commentCount":null,"shareCount":null,"id":"90681e1145d389911cfcc1c0ad688255","title":"什么神仙操作?美国一大学师生备数千冰球防校园枪击","posterId":"sports.qq.com","publishDate":1543450200,"publishDateStr":"2018-11-29T00:10:00","likeCount":null},{"content":"在新版《流星花园》中出演道明寺的王鹤棣近日在广州星海音乐学院出席飞Young校园公开课活动,谈及从素人到电视剧男主角的演艺之路,王鹤棣感慨的称能够进入演员这个行当很幸运,从完全不懂演戏到现在对这个行业很感兴趣,他称自己不仅希望一直做个演员,还要做个好演员。 谈及...","posterScreenName":"腾讯","imageUrls":["http://p9.qhimg.com/t01d8c631d9e9ae883b.jpg?size=641x427","http://p2.qhimg.com/t016216f44fd08db918.jpg?size=641x406","http://p2.qhimg.com/t0127f13d8ef322fdb5.jpg?size=641x455"],"tags":null,"url":"http://ent.qq.com/a/20181129/001405.htm","commentCount":null,"shareCount":null,"id":"1c5b93768d4e17911df46b5382983264","title":"一线|王鹤棣亮相校园公开课 称遗憾大学时光不完整","posterId":"ent.qq.com","publishDate":1543446840,"publishDateStr":"2018-11-28T23:14:00","likeCount":null},{"content":"据记者采访得知,粉笔《遇见》计划包含三大板块,分别是&quot;遇见计划·从 F 到 B&quot;&quot;遇见计划\u2022校园俱乐部&quot;、&quot;遇见计划·校园天使轮&quot;;整个计划依托于粉笔校园,旨在为每个中国高校学生提供平等的教育资源,0 门槛、找同好、共进步,帮助学生维护一个纯净...","posterScreenName":"腾讯教育","imageUrls":["http://p0.qhimg.com/t01acd402250294fe5a.png?size=466x350","http://p7.qhimg.com/t0114f492e97cb944a1.png?size=537x404","http://p2.qhimg.com/t011a6639b2b207f8e9.png?size=485x274"],"tags":null,"url":"http://edu.qq.com/a/20181128/014566.htm","commentCount":null,"shareCount":null,"id":"63231d82f6277a136e07744d75450b97","title":"粉笔CEO张小龙带公开课深入校园,关注教育平权","posterId":"edu.qq.com","publishDate":1543409880,"publishDateStr":"2018-11-28T12:58:00","likeCount":null},{"content":"在校园第一教学楼的大厅,群星璀璨,抬头仰望,好似畅游在繁星浩瀚的宇宙。这里就是其中一处新添的校园景点。特别是夜幕降临,很多手捧书本准备去图书馆自习的大学生,不由自主就被吸引了过来,又不由自主地拿出手机,发&quot;圈&quot;炫耀一下。 美术学院一楼的小树林原来是个空坝...","posterScreenName":"腾讯大渝网","imageUrls":["http://p6.qhimg.com/t01e3e3068d71d2bd21.jpg?size=400x266","http://p5.qhimg.com/t01fa0fa372c631e58c.jpg?size=400x271"],"tags":null,"url":"http://cq.qq.com/a/20181128/002199.htm","commentCount":null,"shareCount":null,"id":"ff7e9c690d3dd42f5476686c144d87e7","title":"一次课堂作业 竟为校园新添两处热门景点","posterId":"cq.qq.com","publishDate":1543361760,"publishDateStr":"2018-11-27T23:36:00","likeCount":null},{"content":"11月24日,2018索尼智慧校园KOOV青少年创新挑战活动北京赛区决赛在海淀区民族小学进行。索尼(中国)有限公司董事长兼总裁高桥洋先生、中国儿童中心教育活动部部长朱晓宇、中国下一代教育基金会理事陈勇,和北京市海淀区少年宫、北京学生活动管理中心、北京市东城区青少年...","posterScreenName":"腾讯教育","imageUrls":["http://p7.qhimg.com/t019f1914c7776dcad9.jpg?size=495x351","http://p0.qhimg.com/t01e71cc0d647194d61.png?size=495x347","http://p1.qhimg.com/t01f03744a1d11194b0.png?size=495x331","http://p5.qhimg.com/t01f2a9d37aba1567cd.png?size=495x280","http://p9.qhimg.com/t0126b6639e7c659ca0.png?size=531x300","http://p9.qhimg.com/t01f85a3f07c86a70e1.jpg?size=495x280","http://p8.qhimg.com/t01c53787f5d0a7bccb.jpg?size=495x316"],"tags":null,"url":"http://edu.qq.com/a/20181127/014632.htm","commentCount":null,"shareCount":null,"id":"d5dd5a28d3832859b4b5b5b1027f1bbf","title":"2018索尼智慧校园KOOV青少年创新挑战活动北京开锣","posterId":"edu.qq.com","publishDate":1543326960,"publishDateStr":"2018-11-27T13:56:00","likeCount":null},{"content":"上海市校园足球联盟秘书长游松辉、上海市校园足球联盟副主任王江宇、上海市足协党支部副书记赵晓珺、金山区教育局局长顾宏伟、金山区体育局局长吴斌、上海市罗星中学校长彭素花等领导出席了本次活动。上海市校园足球联盟自2012年成立以来,在上海市教育委员会领导下、上...","posterScreenName":"腾讯","imageUrls":["http://p2.qhimg.com/t01feec443e6d929a17.jpg?size=600x399","http://p1.qhimg.com/t014902eaac7b36eb89.jpg?size=600x400","http://p9.qhimg.com/t017d14c1d794ef2cb3.jpg?size=641x336"],"tags":null,"url":"http://sports.qq.com/a/20181126/014640.htm","commentCount":null,"shareCount":null,"id":"08ba4c0a292f0dcdb7549fe6ab301d8b","title":"中国女足进校园传递拼搏精神 贾秀全:姑娘们也将军训","posterId":"sports.qq.com","publishDate":1543227120,"publishDateStr":"2018-11-26T10:12:00","likeCount":null},{"content":"同时,福建检察机关积极参加综合治理与整顿校园周边环境工作,参与&quot;扫黄打非&quot;、净化网络秩序等综合治理工作,联合省教育厅、司法厅共同部署为期三年、覆盖全省中小学的&quot;法治进校园&quot;全省巡讲活动,2016年6月以来共开展巡讲近40场次,覆盖学校200余所,受教育...","posterScreenName":"腾讯大闽网","imageUrls":null,"tags":null,"url":"http://fj.qq.com/a/20181124/004210.htm","commentCount":null,"shareCount":null,"id":"e9ea5aa0af4bf2ded3f13bcfb3f48bb4","title":"闽严打校园欺凌和暴力犯罪 已逮捕38人起诉49人","posterId":"fj.qq.com","publishDate":1543024920,"publishDateStr":"2018-11-24T02:02:00","likeCount":null}]
      */
 
-    private String pageToken;
-    private String retcode;
-    private String appCode;
     private String dataType;
+    private String retcode;
+    private String pageToken;
+    private String appCode;
     private boolean hasNext;
     private List<DataBean> data;
 
-    public String getPageToken() {
-        return pageToken;
+    public String getDataType() {
+        return dataType;
     }
 
-    public void setPageToken(String pageToken) {
-        this.pageToken = pageToken;
+    public void setDataType(String dataType) {
+        this.dataType = dataType;
     }
 
     public String getRetcode() {
@@ -37,20 +37,20 @@ public class NewsBean {
         this.retcode = retcode;
     }
 
+    public String getPageToken() {
+        return pageToken;
+    }
+
+    public void setPageToken(String pageToken) {
+        this.pageToken = pageToken;
+    }
+
     public String getAppCode() {
         return appCode;
     }
 
     public void setAppCode(String appCode) {
         this.appCode = appCode;
-    }
-
-    public String getDataType() {
-        return dataType;
-    }
-
-    public void setDataType(String dataType) {
-        this.dataType = dataType;
     }
 
     public boolean isHasNext() {
@@ -71,34 +71,50 @@ public class NewsBean {
 
     public static class DataBean {
         /**
-         * content : 2018年11月19日下午14:00,太平财产保险有限公司2019届校园宣讲会西安交通大学站顺利开启,来自西北区域各大高校约350余名学生参加宣讲会议。总公司人力资源部总经理张进伟、陕西分公司助理总经理槐毅及湖北分公司、辽宁分公司、河北分公司、吉林分公司、山西分公司相关...
-         * posterScreenName : 腾讯大秦网
-         * imageUrls : ["http://p5.qhimg.com/t010050fffee4035de7.jpg?size=641x427","http://p1.qhimg.com/t01f937cce279bf8b9d.jpg?size=641x427","http://p3.qhimg.com/t0151e8789f25270b99.jpg?size=641x427","http://p2.qhimg.com/t01d3542b70960a9387.jpg?size=641x427","http://p8.qhimg.com/t01079568f4c9220972.jpg?size=641x427","http://p0.qhimg.com/t018008f166fbc28467.jpg?size=641x427"]
-         * tags : null
-         * url : http://xian.qq.com/a/20181130/015332.htm
+         * publishDateStr : 2018-12-05T01:55:00
+         * posterId : hb.jjj.qq.com
+         * content : 河北省大厂回族自治县组织开展&quot;宪法知识进校园&quot;主题宣讲活动,普法志愿者组成10余个志愿小分队分赴各中小学校园,通过召开主题班会、组织学生社团活动、社会实践等多种形式,对学生开展法治教育,弘扬宪法精神。通讯员刘亮、黄蕾、白万军摄影报道 12月3日,在河北省大...
          * commentCount : null
+         * imageUrls : ["http://p0.qhimg.com/t01b7436107535d3772.jpg?size=640x426","http://p9.qhimg.com/t013c8933cc69c3ce88.jpg?size=640x410","http://p3.qhimg.com/t01319c4d96a5c131ab.jpg?size=640x426"]
          * shareCount : null
-         * id : c5b9f77274dfba59c65b773bae64cdda
-         * title : 太平财产保险有限公司2019届校园宣讲会西安交大站圆满落幕
-         * posterId : xian.qq.com
-         * publishDate : 1543568700
-         * publishDateStr : 2018-11-30T09:05:00
+         * title : 迎接国家宪法日:大厂普法宣传进校园
+         * tags : null
+         * posterScreenName : 腾讯大燕网
+         * publishDate : 1543974900
          * likeCount : null
+         * url : http://hb.jjj.qq.com/a/20181205/005427.htm
+         * id : f80c37f1d938ddc27027250396c11c21
          */
 
+        private String publishDateStr;
+        private String posterId;
         private String content;
-        private String posterScreenName;
-        private Object tags;
-        private String url;
         private Object commentCount;
         private Object shareCount;
-        private String id;
         private String title;
-        private String posterId;
+        private Object tags;
+        private String posterScreenName;
         private int publishDate;
-        private String publishDateStr;
         private Object likeCount;
+        private String url;
+        private String id;
         private List<String> imageUrls;
+
+        public String getPublishDateStr() {
+            return publishDateStr;
+        }
+
+        public void setPublishDateStr(String publishDateStr) {
+            this.publishDateStr = publishDateStr;
+        }
+
+        public String getPosterId() {
+            return posterId;
+        }
+
+        public void setPosterId(String posterId) {
+            this.posterId = posterId;
+        }
 
         public String getContent() {
             return content;
@@ -106,30 +122,6 @@ public class NewsBean {
 
         public void setContent(String content) {
             this.content = content;
-        }
-
-        public String getPosterScreenName() {
-            return posterScreenName;
-        }
-
-        public void setPosterScreenName(String posterScreenName) {
-            this.posterScreenName = posterScreenName;
-        }
-
-        public Object getTags() {
-            return tags;
-        }
-
-        public void setTags(Object tags) {
-            this.tags = tags;
-        }
-
-        public String getUrl() {
-            return url;
-        }
-
-        public void setUrl(String url) {
-            this.url = url;
         }
 
         public Object getCommentCount() {
@@ -148,14 +140,6 @@ public class NewsBean {
             this.shareCount = shareCount;
         }
 
-        public String getId() {
-            return id;
-        }
-
-        public void setId(String id) {
-            this.id = id;
-        }
-
         public String getTitle() {
             return title;
         }
@@ -164,12 +148,20 @@ public class NewsBean {
             this.title = title;
         }
 
-        public String getPosterId() {
-            return posterId;
+        public Object getTags() {
+            return tags;
         }
 
-        public void setPosterId(String posterId) {
-            this.posterId = posterId;
+        public void setTags(Object tags) {
+            this.tags = tags;
+        }
+
+        public String getPosterScreenName() {
+            return posterScreenName;
+        }
+
+        public void setPosterScreenName(String posterScreenName) {
+            this.posterScreenName = posterScreenName;
         }
 
         public int getPublishDate() {
@@ -180,20 +172,28 @@ public class NewsBean {
             this.publishDate = publishDate;
         }
 
-        public String getPublishDateStr() {
-            return publishDateStr;
-        }
-
-        public void setPublishDateStr(String publishDateStr) {
-            this.publishDateStr = publishDateStr;
-        }
-
         public Object getLikeCount() {
             return likeCount;
         }
 
         public void setLikeCount(Object likeCount) {
             this.likeCount = likeCount;
+        }
+
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
         }
 
         public List<String> getImageUrls() {
@@ -203,5 +203,36 @@ public class NewsBean {
         public void setImageUrls(List<String> imageUrls) {
             this.imageUrls = imageUrls;
         }
+
+        @Override
+        public String toString() {
+            return "DataBean{" +
+                    "publishDateStr='" + publishDateStr + '\'' +
+                    ", posterId='" + posterId + '\'' +
+                    ", content='" + content + '\'' +
+                    ", commentCount=" + commentCount +
+                    ", shareCount=" + shareCount +
+                    ", title='" + title + '\'' +
+                    ", tags=" + tags +
+                    ", posterScreenName='" + posterScreenName + '\'' +
+                    ", publishDate=" + publishDate +
+                    ", likeCount=" + likeCount +
+                    ", url='" + url + '\'' +
+                    ", id='" + id + '\'' +
+                    ", imageUrls=" + imageUrls +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "NewsBean{" +
+                "dataType='" + dataType + '\'' +
+                ", retcode='" + retcode + '\'' +
+                ", pageToken='" + pageToken + '\'' +
+                ", appCode='" + appCode + '\'' +
+                ", hasNext=" + hasNext +
+                ", data=" + data +
+                '}';
     }
 }

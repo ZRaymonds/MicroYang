@@ -9,18 +9,21 @@ import android.widget.TextView;
 
 import com.app.microyang.R;
 import com.app.microyang.base.BaseActivity;
+import com.app.microyang.bean.NewsBean;
 import com.app.microyang.presenter.LoginPresenter;
+import com.app.microyang.presenter.NewsPresenter;
 import com.app.microyang.utils.LogUtil;
 import com.app.microyang.utils.RSAUtil;
 import com.app.microyang.utils.ToastUtil;
 import com.app.microyang.utils.VerifyUtil;
 import com.app.microyang.view.ILoginView;
+import com.app.microyang.view.INewsView;
 import com.app.microyang.widget.LoadingDialog;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class LoginActivity extends BaseActivity implements ILoginView {
+public class LoginActivity extends BaseActivity implements ILoginView,INewsView {
 
     @BindView(R.id.tv_newAccount)
     TextView tv_newAccount;
@@ -28,8 +31,8 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     @BindView(R.id.btn_login)
     Button btn_login;
 
-    @BindView(R.id.et_login_studentID)
-    EditText et_login_studentID;
+    @BindView(R.id.et_login_username)
+    EditText et_login_username;
 
     @BindView(R.id.et_login_password)
     EditText et_login_password;
@@ -40,10 +43,13 @@ public class LoginActivity extends BaseActivity implements ILoginView {
 
     private LoginPresenter loginPresenter;
 
+    private NewsPresenter newsPresenter;
+
     @Override
     protected void initData(Bundle savedInstanceState) {
         mContext = this;
         loginPresenter = new LoginPresenter(this);
+        newsPresenter = new NewsPresenter(this);
         initLoadDialog();
     }
 
@@ -62,6 +68,7 @@ public class LoginActivity extends BaseActivity implements ILoginView {
                         ToastUtil.show(this, "密码不能为空");
                     } else {
                         loginPresenter.login();
+                        newsPresenter.getNews();
                     }
                 } else {
                     ToastUtil.show(this, "请检查网络设置");
@@ -94,12 +101,12 @@ public class LoginActivity extends BaseActivity implements ILoginView {
 
     @Override
     public String getLgUsername() {
-        return et_login_studentID.getText().toString();
+        return et_login_username.getText().toString();
     }
 
     @Override
     public String getLgPassword() {
-        return RSAUtil.base64Encrypted(et_login_password.getText().toString());
+        return et_login_password.getText().toString();
     }
 
     @Override
@@ -110,6 +117,16 @@ public class LoginActivity extends BaseActivity implements ILoginView {
     @Override
     public void hideLoading() {
         loadingDialog.dismiss();
+    }
+
+    @Override
+    public void initData(NewsBean dataBeans) {
+
+    }
+
+    @Override
+    public void showErrorMsg(Exception e) {
+
     }
 
     /**

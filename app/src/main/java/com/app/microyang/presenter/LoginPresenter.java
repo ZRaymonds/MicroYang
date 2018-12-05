@@ -25,9 +25,9 @@ public class LoginPresenter {
             public void onSuccess(UserBean userBean) {
                 int code = userBean.getCode();
                 String msg = userBean.getMsg();
-                LogUtil.d("TAG", userBean.getAuthc_token());
                 iLoginView.showLoginSuccess(code, msg);
                 iLoginView.hideLoading();
+                LogUtil.d("TAG", userBean.getAuthc_token());
             }
 
             @Override

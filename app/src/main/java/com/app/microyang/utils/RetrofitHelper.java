@@ -45,6 +45,17 @@ public class RetrofitHelper {
         return serverApi;
     }
 
+    public static ServerApi getServerNews() {
+        if (serverApi == null) {
+            synchronized (ServerApi.class) {
+                if (serverApi == null) {
+                    serverApi = onCreate(ServerApi.class, Api.NEWSHOST);
+                }
+            }
+        }
+        return serverApi;
+    }
+
     public static <T> T onCreate(Class<T> tClass, String url) {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)

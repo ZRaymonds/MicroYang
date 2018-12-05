@@ -23,23 +23,6 @@
             android:background="#e0ececec"
             android:orientation="vertical">
 
-            <com.allure.lbanners.LMBanners
-                android:id="@+id/banners"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@android:color/transparent"
-                app:auto_play="true"
-                app:canLoop="true"
-                app:durtion="5000"
-                app:horizontal_transitionEffect="accordion"
-                app:indicatorBottomPadding="100"
-                app:indicator_position="bottom_mid"
-                app:indicator_select="@drawable/page_indicator_select"
-                app:indicator_unselect="@drawable/page_indicator_unselect"
-                app:isGuide="false"
-                app:isVertical="false"
-                app:scroll_duration="1000" />
-
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
