@@ -33,4 +33,9 @@
 
     <string name="male">男</string>
     <string name="female">女</string>
+
+    <string name="details">详细资料</string>
+    <string name="my_activity">我的活动</string>
+    <string name="about">关于</string>
+    <string name="logout">注销</string>
 </resources>

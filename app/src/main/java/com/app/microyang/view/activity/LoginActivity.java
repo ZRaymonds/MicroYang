@@ -11,19 +11,16 @@ import com.app.microyang.R;
 import com.app.microyang.base.BaseActivity;
 import com.app.microyang.bean.NewsBean;
 import com.app.microyang.presenter.LoginPresenter;
-import com.app.microyang.presenter.NewsPresenter;
 import com.app.microyang.utils.LogUtil;
-import com.app.microyang.utils.RSAUtil;
 import com.app.microyang.utils.ToastUtil;
 import com.app.microyang.utils.VerifyUtil;
 import com.app.microyang.view.ILoginView;
-import com.app.microyang.view.INewsView;
 import com.app.microyang.widget.LoadingDialog;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class LoginActivity extends BaseActivity implements ILoginView,INewsView {
+public class LoginActivity extends BaseActivity implements ILoginView{
 
     @BindView(R.id.tv_newAccount)
     TextView tv_newAccount;
@@ -43,13 +40,11 @@ public class LoginActivity extends BaseActivity implements ILoginView,INewsView 
 
     private LoginPresenter loginPresenter;
 
-    private NewsPresenter newsPresenter;
 
     @Override
     protected void initData(Bundle savedInstanceState) {
         mContext = this;
         loginPresenter = new LoginPresenter(this);
-        newsPresenter = new NewsPresenter(this);
         initLoadDialog();
     }
 
@@ -68,7 +63,6 @@ public class LoginActivity extends BaseActivity implements ILoginView,INewsView 
                         ToastUtil.show(this, "密码不能为空");
                     } else {
                         loginPresenter.login();
-                        newsPresenter.getNews();
                     }
                 } else {
                     ToastUtil.show(this, "请检查网络设置");
@@ -119,15 +113,6 @@ public class LoginActivity extends BaseActivity implements ILoginView,INewsView 
         loadingDialog.dismiss();
     }
 
-    @Override
-    public void initData(NewsBean dataBeans) {
-
-    }
-
-    @Override
-    public void showErrorMsg(Exception e) {
-
-    }
 
     /**
      * 初始化 LoadDialog
