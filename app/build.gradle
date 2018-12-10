@@ -36,7 +36,8 @@ dependencies {
     //    implementation 'com.allure0:LMBanners:1.0.8'
     implementation project(':lm_banner_library')
     //Glide框架
-    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     //引用第三方加载圈
     implementation 'com.victor:lib:1.0.4'
     //RxJava+Retrofit
