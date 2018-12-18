@@ -38,4 +38,11 @@
     <string name="my_activity">我的活动</string>
     <string name="about">关于</string>
     <string name="logout">注销</string>
+
+    <string name="app_code">微阳    1.0</string>
+    <string name="app_introduce">功能介绍</string>
+    <string name="about_author">关于作者</string>
+    <string name="app_update">版本更新</string>
+    <string name="text1">研发中心 版权所有</string>
+    <string name="text2">CopyRight @ 2018 All Rights Reserved</string>
 </resources>

@@ -29,7 +29,10 @@
             android:name=".view.activity.RegisterActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name=".view.activity.MainActivity" />
-        <activity android:name=".view.activity.NewsDetailsActivity"/>
+        <activity android:name=".view.activity.NewsDetailsActivity" />
+        <activity android:name=".view.activity.AboutActivity" />
+        <activity android:name=".view.activity.UserDetailsActivity" />
+        <activity android:name=".view.activity.CompetitionActivity"/>
     </application>
 
 </manifest>

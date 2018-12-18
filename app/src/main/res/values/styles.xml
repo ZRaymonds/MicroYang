@@ -32,4 +32,10 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="AppTopBar" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
 </resources>

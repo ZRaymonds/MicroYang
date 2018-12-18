@@ -10,12 +10,15 @@ import android.widget.TextView;
 import com.app.microyang.R;
 import com.app.microyang.base.BaseActivity;
 import com.app.microyang.bean.NewsBean;
+import com.app.microyang.bean.UserBean;
 import com.app.microyang.presenter.LoginPresenter;
 import com.app.microyang.utils.LogUtil;
 import com.app.microyang.utils.ToastUtil;
 import com.app.microyang.utils.VerifyUtil;
 import com.app.microyang.view.ILoginView;
 import com.app.microyang.widget.LoadingDialog;
+
+import org.greenrobot.eventbus.EventBus;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -111,6 +114,16 @@ public class LoginActivity extends BaseActivity implements ILoginView{
     @Override
     public void hideLoading() {
         loadingDialog.dismiss();
+    }
+
+    @Override
+    public void showUserInfo(UserBean userBean) {
+        String username = userBean.getData().getUsername();
+        String sex = userBean.getData().getSex();
+        String school = userBean.getData().getSchool();
+        LogUtil.d("user",username);
+        LogUtil.d("user",sex);
+        LogUtil.d("user",school);
     }
 
 

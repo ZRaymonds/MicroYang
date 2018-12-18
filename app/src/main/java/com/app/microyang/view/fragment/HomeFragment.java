@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.app.microyang.R;
@@ -42,13 +43,15 @@ public class HomeFragment extends BaseFragment {
     @BindView(R.id.refreshLayout)
     RefreshLayout refreshLayout;
 
-    private List<NewsBean.DataBean> dataBeans = new ArrayList<>();
+    private List<NewsBean.DataBean> dataBeans;
 
     private NewsBean.DataBean newsBeans;
 
     private MyViewAdapter adapter;
 
     private LinearLayoutManager linearLayoutManager;
+
+    private boolean hasNext = false;
 
     @Override
     protected View initView(Bundle savedInstanceState) {
@@ -59,21 +62,8 @@ public class HomeFragment extends BaseFragment {
 
     @Override
     protected void initData() {
-        dataBeans = new ArrayList<>();
         refreshLayout.setRefreshHeader(new PhoenixHeader(mActivity));
-        refreshLayout.setRefreshFooter(new BallPulseFooter(mActivity).setSpinnerStyle(SpinnerStyle.FixedBehind));
-        refreshLayout.setOnRefreshListener(new OnRefreshListener() {
-            @Override
-            public void onRefresh(final RefreshLayout refreshLayout) {
-
-            }
-        });
-        refreshLayout.setOnLoadMoreListener(new OnLoadMoreListener() {
-            @Override
-            public void onLoadMore(RefreshLayout refreshLayout) {
-
-            }
-        });
+        refreshLayout.setRefreshFooter(new BallPulseFooter(mActivity).setSpinnerStyle(SpinnerStyle.Scale));
     }
 
     @Override
@@ -91,20 +81,20 @@ public class HomeFragment extends BaseFragment {
 
                     @Override
                     public void onError(Throwable e) {
-
+                        LogUtil.e("error",e.getMessage());
                     }
 
                     @Override
                     public void onNext(NewsBean newsBean) {
                         dataBeans = newsBean.getData();
+                        hasNext = newsBean.isHasNext();
+                        if (hasNext = newsBean.isHasNext() == true) {
+                            sendHasNext(hasNext);
+                        }
                         for (int i = 0; i < dataBeans.size(); i++) {
                             String title = dataBeans.get(i).getTitle();
                             String publishDate = dataBeans.get(i).getPublishDateStr();
-//                            String imageUrl = dataBeans.get(i).getImageUrls().get(0);
                             List<String> imageUrl = dataBeans.get(i).getImageUrls();
-                            LogUtil.d("NEWS", title);
-                            LogUtil.d("NEWS", publishDate);
-                            LogUtil.d("NEWS", imageUrl.get(0));
                             newsBeans = new NewsBean.DataBean(title, publishDate, imageUrl);
                             dataBeans.add(newsBeans);
                             adapter = new MyViewAdapter(mActivity, dataBeans);
@@ -114,12 +104,41 @@ public class HomeFragment extends BaseFragment {
                             adapter.addHeaderView(view);
                             main_fragment_list.setHasFixedSize(true);
                             main_fragment_list.setLayoutManager(linearLayoutManager);
+                            adapter.setHasStableIds(true);
                             main_fragment_list.setAdapter(adapter);
                             initListener();
+                            LogUtil.d("NEWS", title);
+                            LogUtil.d("NEWS", publishDate);
+                            LogUtil.d("NEWS", imageUrl.get(0));
                         }
                     }
                 });
     }
+
+    private void sendHasNext(boolean hasNext) {
+        refreshLayout.setOnRefreshListener(new OnRefreshListener() {
+            @Override
+            public void onRefresh(final RefreshLayout refreshLayout) {
+                adapter.refresh(dataBeans);
+                refreshLayout.setEnableRefresh(true);
+                refreshLayout.finishRefresh(2000);
+            }
+        });
+        refreshLayout.setOnLoadMoreListener(new OnLoadMoreListener() {
+            @Override
+            public void onLoadMore(RefreshLayout refreshLayout) {
+                if (dataBeans.size()<20){
+                    adapter.add(dataBeans);
+                    refreshLayout.setEnableLoadMore(true);
+                    refreshLayout.finishLoadMore(2000);
+                }else {
+                    refreshLayout.setEnableLoadMore(false);
+                    ToastUtil.show(mActivity,"-end-");
+                }
+            }
+        });
+    }
+
 
     private void initListener() {
         if (adapter != null) {

@@ -77,6 +77,8 @@ public class RegisterActivity extends BaseActivity implements IRegisterView {
                         ToastUtil.show(this, "学号不能为空");
                     } else if (getRgSex().isEmpty()) {
                         ToastUtil.show(this, "性别不能为空");
+                    } else if (!getRgSex().equals("男") && !getRgSex().equals("女")) {
+                        ToastUtil.show(this, "性别只能填男或女");
                     } else if (getRgSchool().isEmpty()) {
                         ToastUtil.show(this, "学校不能为空");
                     } else if (getRgSystemType().isEmpty()) {

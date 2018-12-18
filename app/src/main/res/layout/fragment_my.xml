@@ -15,10 +15,10 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_gravity="bottom"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginBottom="12dp"
-            android:src="@mipmap/ic_launcher_round"
-            android:layout_marginStart="15dp" />
+            android:src="@mipmap/ic_launcher_round" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -57,22 +57,11 @@
                     android:src="@drawable/ic_male" />
 
                 <TextView
-                    android:id="@+id/tv_user_age"
+                    android:id="@+id/tv_user_school"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="4dp"
-                    android:text=""
-                    android:textColor="@color/white"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/tv_user_area"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="8dp"
-                    android:singleLine="true"
+                    android:layout_marginLeft="10dp"
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="14sp" />
@@ -100,29 +89,29 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
+                android:contentDescription="TODO"
                 android:padding="8dp"
-                android:src="@drawable/ic_details"
-                android:contentDescription="TODO" />
+                android:src="@drawable/ic_details" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:text="@string/details"
                 android:textColor="#8a8a8a"
-                android:textSize="15sp"
-                android:layout_marginStart="5dp" />
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="8dp"
+                android:contentDescription="TODO"
                 android:padding="2dp"
-                android:src="@drawable/ic_right_arrow"
-                android:contentDescription="TODO" />
+                android:src="@drawable/ic_right_arrow" />
         </LinearLayout>
 
         <View
@@ -145,21 +134,21 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
+                android:contentDescription="TODO"
                 android:padding="8dp"
-                android:src="@drawable/ic_activity"
-                android:contentDescription="TODO" />
+                android:src="@drawable/ic_activity" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:clickable="false"
                 android:gravity="center_vertical"
                 android:text="@string/my_activity"
                 android:textColor="#8a8a8a"
-                android:textSize="15sp"
-                android:layout_marginStart="5dp" />
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="40dp"
@@ -203,14 +192,14 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:clickable="false"
                 android:gravity="center_vertical"
                 android:text="@string/about"
                 android:textColor="#8a8a8a"
-                android:textSize="15sp"
-                android:layout_marginStart="5dp" />
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="40dp"
@@ -247,23 +236,23 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:clickable="false"
                 android:gravity="center_vertical"
                 android:text="@string/logout"
                 android:textColor="#8a8a8a"
-                android:textSize="15sp"
-                android:layout_marginStart="5dp" />
+                android:textSize="15sp" />
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginRight="8dp"
+                android:contentDescription="TODO"
                 android:padding="2dp"
-                android:src="@drawable/ic_right_arrow"
-                android:contentDescription="TODO" />
+                android:src="@drawable/ic_right_arrow" />
         </LinearLayout>
 
         <View

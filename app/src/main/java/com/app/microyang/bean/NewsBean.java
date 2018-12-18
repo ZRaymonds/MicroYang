@@ -100,6 +100,9 @@ public class NewsBean {
         private String id;
         private List<String> imageUrls;
 
+        public DataBean() {
+        }
+
         public DataBean(String title, String publishDateStr, List<String> imageUrls) {
             this.title = title;
             this.publishDateStr = publishDateStr;

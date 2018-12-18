@@ -1,6 +1,7 @@
 package com.app.microyang.network;
 
 
+import com.app.microyang.bean.MatchBean;
 import com.app.microyang.bean.NewsBean;
 import com.app.microyang.bean.UserBean;
 
@@ -22,8 +23,13 @@ public interface ServerApi {
     @POST(Api.LOGIN)
     Observable<UserBean> login(@FieldMap Map<String, String> map);
 
-    @GET("http://api01.idataapi.cn:8000/news/qihoo?kw=%E6%A0%A1%E5%9B%AD&site=qq.com&apikey=rVdPWU1LZzfjfQBn3iKQzzdUHum1nNao9qO0TqYsKITRbyvUYjeI11VpUmZdj07J")
+    @GET(Api.NEWS)
     Observable<NewsBean> getNews();
 
+    @POST(Api.LOGOUT)
+    Observable<UserBean> logout();
+
+    @GET(Api.MATCHLIST)
+    Observable<MatchBean> getMatch();
 
 }
